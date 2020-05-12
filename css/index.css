@@ -168,6 +168,12 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+a {
+  margin-left: 20px;
+  font-size: 1.8rem;
+  color: #212529;
+  text-decoration: none;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -178,6 +184,20 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home header {
+  border-bottom: 4px dashed lightgrey;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.home .hero {
+  border-bottom: 4px dashed lightgrey;
+}
+.home .hero h2 {
+  margin: 10px 0;
 }
 .home .content-section {
   margin: 30px 0;
@@ -224,4 +244,15 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  display: block;
+  background-color: green;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: white;
 }
