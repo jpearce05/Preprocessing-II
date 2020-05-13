@@ -204,6 +204,15 @@ nav a {
 .home .hero {
   border-bottom: 4px dashed lightgrey;
 }
+@media (max-width: 500px) {
+  .home .hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-align: justify;
+    width: 80%;
+  }
+}
 .home .hero h2 {
   margin: 10px 0;
 }
@@ -213,13 +222,34 @@ nav a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
 }
+@media (max-width: 500px) {
+  .home .content-section .text-content {
+    padding-left: 6%;
+    width: 90%;
+  }
+}
 .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
+}
+@media (max-width: 500px) {
+  .home .content-section .img-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+  }
 }
 .home .content-section .img-content img {
   border-radius: 10px;
